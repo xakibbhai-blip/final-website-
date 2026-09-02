@@ -198,6 +198,16 @@
       "title_en": "Facebook cover design",
       "category": "social-media-design",
       "image": "/images/uploads/reed-bannder-4x.webp"
+    },
+    {
+      "title": "রুলআপ স্ট্যান্ড ব্যানার ডিজাইন",
+      "title_en": "Rollup Banner Design",
+      "category": "banner-design",
+      "image": "/images/uploads/master-banner-final-2x-100.webp",
+      "gallery": [
+        "/images/uploads/master-banner-final-malle-2x-100.webp",
+        "/images/uploads/master-banner-final-2x-100.webp"
+      ]
     }
   ]
 }
