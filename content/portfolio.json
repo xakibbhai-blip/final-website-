@@ -109,6 +109,28 @@
         "/images/uploads/small-size-20.jpg",
         "/images/uploads/long-size-20.jpg"
       ]
+    },
+    {
+      "title": "মাস্টার মশাই ভিজিটিং/বিজনেস কার্ড",
+      "category": "visiting-card",
+      "title_en": "Master Moshai Visiting Card",
+      "image": "/images/uploads/artboard-1-copy-2-4x-100.jpg",
+      "gallery": [
+        "/images/uploads/artboard-1-copy-2-4x-100.jpg",
+        "/images/uploads/artboard-1-copy-3-4x-100.jpg"
+      ]
+    },
+    {
+      "category": "visiting-card",
+      "title": "বাংলা পয়েন্ট ভিজিটিং কার্ড",
+      "title_en": "Bangla point",
+      "image": "/images/uploads/artboard-1-copy-2-2x.webp",
+      "gallery": [
+        "/images/uploads/artboard-1-copy-2-2x.webp",
+        "/images/uploads/artboard-1-copy-3-2x.webp",
+        "/images/uploads/artboard-1-2x-100-1-1-.webp",
+        "/images/uploads/yrty.webp"
+      ]
     }
   ]
 }
