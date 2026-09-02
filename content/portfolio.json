@@ -131,6 +131,24 @@
         "/images/uploads/artboard-1-2x-100-1-1-.webp",
         "/images/uploads/yrty.webp"
       ]
+    },
+    {
+      "category": "jersy-design",
+      "title": "জার্সি ডিজাইন",
+      "title_en": "Jersy design",
+      "image": "/images/uploads/chatgpt-image-sep-2-2026-08_15_34-pm.webp",
+      "gallery": [
+        "/images/uploads/sfsfsf-20.jpg"
+      ]
+    },
+    {
+      "title": "জার্সি ডিজাইন",
+      "title_en": "Jersy design",
+      "category": "jersy-design",
+      "gallery": [
+        "/images/uploads/artboard-5-20.jpg"
+      ],
+      "image": "/images/uploads/gemini_generated_image_hoosm4hoosm4hoos.jfif"
     }
   ]
 }
