@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "name": "বেসিক",
+      "name_en": "Basic",
+      "price": "৳৭০০",
+      "price_en": "৳700",
+      "period": "প্রতি প্রজেক্ট",
+      "period_en": "per project",
+      "features": ["১টি কনসেপ্ট ডিজাইন", "২টি রিভিশন", "হাই-রেজোলিউশন ফাইল", "ডেলিভারি: ২৪-৪৮ ঘণ্টা"],
+      "features_en": ["1 concept design", "2 revisions", "High-resolution files", "Delivery: 24–48 hours"],
+      "highlighted": false
+    },
+    {
+      "name": "স্ট্যান্ডার্ড",
+      "name_en": "Standard",
+      "price": "৳১৫০০",
+      "price_en": "৳1,500",
+      "period": "প্রতি প্রজেক্ট",
+      "period_en": "per project",
+      "features": ["২টি কনসেপ্ট ডিজাইন", "৫টি রিভিশন", "সোর্স ফাইল (AI/PSD)", "প্রায়োরিটি সাপোর্ট", "ডেলিভারি: ২৪ ঘণ্টা"],
+      "features_en": ["2 concept designs", "5 revisions", "Source files (AI/PSD)", "Priority support", "Delivery: 24 hours"],
+      "highlighted": true
+    },
+    {
+      "name": "প্রিমিয়াম",
+      "name_en": "Premium",
+      "price": "৳২৫০০",
+      "price_en": "৳2,500",
+      "period": "প্রতি প্রজেক্ট",
+      "period_en": "per project",
+      "features": ["আনলিমিটেড কনসেপ্ট", "আনলিমিটেড রিভিশন", "সব ফরম্যাটে সোর্স ফাইল", "ফ্রি সোশ্যাল মিডিয়া কিট", "২৪/৭ সাপোর্ট", "ডেলিভারি: ১২-২৪ ঘণ্টা"],
+      "features_en": ["Unlimited concepts", "Unlimited revisions", "Source files in every format", "Free social media kit", "24/7 support", "Delivery: 12–24 hours"],
+      "highlighted": false
+    }
+  ]
+}

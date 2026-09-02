@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "image": "/images/uploads/bestwork-placeholder.svg", "title": "সেরা কাজ ১", "title_en": "Best Work 1" },
+    { "image": "/images/uploads/bestwork-placeholder.svg", "title": "সেরা কাজ ২", "title_en": "Best Work 2" },
+    { "image": "/images/uploads/bestwork-placeholder.svg", "title": "সেরা কাজ ৩", "title_en": "Best Work 3" },
+    { "image": "/images/uploads/bestwork-placeholder.svg", "title": "সেরা কাজ ৪", "title_en": "Best Work 4" }
+  ]
+}

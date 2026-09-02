@@ -1,0 +1,254 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+locale: "en"
+
+collections:
+  - name: "pricing"
+    label: "Pricing / প্যাকেজ"
+    files:
+      - file: "content/pricing.json"
+        label: "Packages"
+        name: "pricing"
+        fields:
+          - label: "Packages"
+            name: "items"
+            widget: "list"
+            summary: "{{name_en}} - {{price_en}}"
+            fields:
+              - { label: "Package Name (Bangla)", name: "name", widget: "string" }
+              - { label: "Package Name (English)", name: "name_en", widget: "string" }
+              - { label: "Price (Bangla)", name: "price", widget: "string" }
+              - { label: "Price (English)", name: "price_en", widget: "string" }
+              - { label: "Period (Bangla)", name: "period", widget: "string", required: false }
+              - { label: "Period (English)", name: "period_en", widget: "string", required: false }
+              - { label: "Features (Bangla, one per line)", name: "features", widget: "list" }
+              - { label: "Features (English, one per line)", name: "features_en", widget: "list" }
+              - label: "Highlight this package (Most Popular)"
+                name: "highlighted"
+                widget: "boolean"
+                default: false
+
+  - name: "bestwork"
+    label: "Best Work / সেরা কাজ"
+    files:
+      - file: "content/bestwork.json"
+        label: "Best Work Items"
+        name: "bestwork"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            summary: "{{title_en}}"
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Title (Bangla)", name: "title", widget: "string", required: false }
+              - { label: "Title (English)", name: "title_en", widget: "string", required: false }
+
+  - name: "settings"
+    label: "Name, Photo & Contact"
+    files:
+      - file: "content/settings.json"
+        label: "Name, Photo & Contact"
+        name: "settings"
+        fields:
+          - { label: "Name (Bangla)", name: "name", widget: "string" }
+          - { label: "Name (English)", name: "name_en", widget: "string" }
+          - { label: "Tagline (Bangla)", name: "tagline", widget: "string", required: false }
+          - { label: "Tagline (English)", name: "tagline_en", widget: "string", required: false }
+          - { label: "Bio (Bangla)", name: "bio", widget: "text" }
+          - { label: "Bio (English)", name: "bio_en", widget: "text" }
+          - { label: "Profile Photo", name: "profileImage", widget: "image" }
+
+          - label: "Navbar Logo"
+            name: "logo"
+            widget: "image"
+            required: false
+            hint: "শুধু উপরের ন্যাভবারে দেখানো লোগো। এটা বদলালে লোডিং স্ক্রিনের লোগোতে কোনো প্রভাব পড়বে না।"
+
+          - label: "Loading Screen Logo"
+            name: "splashLogo"
+            widget: "image"
+            required: false
+            hint: "ওয়েবসাইট প্রথমে খোলার সময় লোডিং স্ক্রিনে যে লোগো দেখাবে। খালি রাখলে Navbar Logo (বা তাও না থাকলে Favicon) দেখাবে। এটা বদলালে Navbar Logo তে কোনো প্রভাব পড়বে না।"
+
+          - label: "Favicon (browser tab icon)"
+            name: "favicon"
+            widget: "image"
+            required: false
+            hint: "Use a simple square image, it shows very small."
+
+          - { label: "Phone", name: "phone", widget: "string", required: false }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Location", name: "location", widget: "string", required: false }
+
+          - label: "WhatsApp Number"
+            name: "whatsappNumber"
+            widget: "string"
+            hint: "With country code, e.g. +8801XXXXXXXXX"
+
+          - { label: "WhatsApp Message (Bangla)", name: "whatsappMessage", widget: "string" }
+          - { label: "WhatsApp Message (English)", name: "whatsappMessage_en", widget: "string" }
+
+          - { label: "Years of Experience (Bangla)", name: "yearsExperience", widget: "string" }
+          - { label: "Years of Experience (English)", name: "yearsExperience_en", widget: "string" }
+
+          - { label: "Projects Done (Bangla)", name: "projectsDone", widget: "string" }
+          - { label: "Projects Done (English)", name: "projectsDone_en", widget: "string" }
+
+          - { label: "Happy Clients (Bangla)", name: "happyClients", widget: "string" }
+          - { label: "Happy Clients (English)", name: "happyClients_en", widget: "string" }
+
+          - label: "Google Drive Link"
+            name: "googleDriveUrl"
+            widget: "string"
+            required: false
+            hint: "Paste your Google Drive folder/file share link here. Leave empty to hide the button."
+
+          - { label: "Google Drive Button Text (Bangla)", name: "googleDriveLabel", widget: "string", required: false }
+          - { label: "Google Drive Button Text (English)", name: "googleDriveLabel_en", widget: "string", required: false }
+
+          - label: "Facebook Profile/Page Link"
+            name: "facebookUrl"
+            widget: "string"
+            required: false
+            hint: "Paste your full Facebook profile or page URL. Leave empty to hide the Facebook button."
+
+          - label: "Instagram Profile Link"
+            name: "instagramUrl"
+            widget: "string"
+            required: false
+            hint: "Paste your full Instagram profile URL. Leave empty to hide the Instagram button."
+
+          - label: "Link Preview Image (og-image.png)"
+            name: "ogImagePlaceholder"
+            widget: "image"
+            required: false
+            hint: "গুরুত্বপূর্ণ: আপলোড করার আগে আপনার কম্পিউটারে ছবিটার নাম ঠিক 'og-image.png' করে নিন। তাহলেই এটা পুরনো প্রিভিউ ছবিটা ওভাররাইট করে দেবে, কোনো কোড এডিট লাগবে না। অন্য নামে আপলোড করলে কাজ করবে না।"
+
+  - name: "categories"
+    label: "Categories / ক্যাটাগরি"
+    files:
+      - file: "content/categories.json"
+        label: "All Categories"
+        name: "categories"
+        fields:
+          - label: "Categories"
+            name: "items"
+            widget: "list"
+            summary: "{{label_en}} / {{label}}"
+            fields:
+              - label: "ID (simple English, no spaces)"
+                name: "id"
+                widget: "string"
+                hint: "Use in the Portfolio item's Category ID field to link them together. e.g. logo-design"
+
+              - { label: "Label (Bangla)", name: "label", widget: "string" }
+              - { label: "Label (English)", name: "label_en", widget: "string" }
+
+  - name: "portfolio"
+    label: "Portfolio Work / পোর্টফোলিও কাজ"
+    files:
+      - file: "content/portfolio.json"
+        label: "All Work"
+        name: "portfolio"
+        fields:
+          - label: "Work Items"
+            name: "items"
+            widget: "list"
+            summary: "{{title_en}} ({{category}})"
+            fields:
+              - { label: "Title (Bangla)", name: "title", widget: "string" }
+              - { label: "Title (English)", name: "title_en", widget: "string" }
+
+              - label: "Category ID"
+                name: "category"
+                widget: "string"
+                hint: "Must exactly match a Category ID from the Categories section above."
+
+              - label: "Cover Image"
+                name: "image"
+                widget: "image"
+                hint: "Main image shown on the portfolio card."
+
+              - label: "Gallery Images"
+                name: "gallery"
+                widget: "list"
+                required: false
+                field:
+                  label: "Gallery Image"
+                  name: "image"
+                  widget: "image"
+                hint: "Add multiple images for this project."
+
+              - { label: "Description (Bangla)", name: "description", widget: "text", required: false }
+              - { label: "Description (English)", name: "description_en", widget: "text", required: false }
+
+  - name: "videoshowcase"
+    label: "Video Showcase / ভিডিও শোকেস"
+    files:
+      - file: "content/videoshowcase.json"
+        label: "Videos & Promo Images"
+        name: "videoshowcase"
+        fields:
+          - label: "Videos"
+            name: "videos"
+            widget: "list"
+            summary: "{{title_en}}"
+            hint: "এগুলো 'Watch Now' কার্ড হিসেবে দেখাবে — থাম্বনেইলে বা Watch Now তে ক্লিক করলে ভিডিও লিংক নতুন ট্যাবে খুলবে।"
+            fields:
+              - label: "Thumbnail Image"
+                name: "thumbnail"
+                widget: "image"
+                hint: "ইউটিউব থাম্বনেইলের সাইজের মতো (16:9) ছবি দিলে সবচেয়ে ভালো দেখাবে।"
+
+              - label: "Video Link"
+                name: "videoUrl"
+                widget: "string"
+                required: false
+                hint: "YouTube অথবা Facebook ভিডিও লিংক পেস্ট করুন। এখানে ক্লিক করলে এই লিংকটাই নতুন ট্যাবে খুলবে।"
+
+              - { label: "Title (Bangla)", name: "title", widget: "string", required: false }
+              - { label: "Title (English)", name: "title_en", widget: "string", required: false }
+
+          - label: "Promotional Images"
+            name: "promoImages"
+            widget: "list"
+            summary: "{{title_en}}"
+            required: false
+            hint: "ভিডিও শোকেসের সাথে দেখানো প্রোমোশনাল ছবি — চাইলে এগুলোতেও লিংক জুড়ে দিতে পারবেন।"
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - label: "Link (optional)"
+                name: "link"
+                widget: "string"
+                required: false
+                hint: "ক্লিক করলে এই লিংকে যাবে। খালি রাখলে শুধু ছবি হিসেবে দেখাবে।"
+              - { label: "Title (Bangla)", name: "title", widget: "string", required: false }
+              - { label: "Title (English)", name: "title_en", widget: "string", required: false }
+
+  - name: "whyhire"
+    label: "Why Hire Me / কেন হায়ার করবেন"
+    files:
+      - file: "content/whyhire.json"
+        label: "Reasons & Skills"
+        name: "whyhire"
+        fields:
+          - label: "Reasons"
+            name: "reasons"
+            widget: "list"
+            summary: "{{title_en}}"
+            fields:
+              - { label: "Title (Bangla)", name: "title", widget: "string" }
+              - { label: "Title (English)", name: "title_en", widget: "string" }
+              - { label: "Description (Bangla)", name: "description", widget: "text" }
+              - { label: "Description (English)", name: "description_en", widget: "text" }
+
+          - label: "Skills / Tools"
+            name: "skills"
+            widget: "list"
+            hint: "e.g. Adobe Photoshop, Canva, Figma — add one at a time"

@@ -1,0 +1,23 @@
+{
+  "reasons": [
+    {
+      "title": "দ্রুত ডেলিভারি",
+      "title_en": "Fast Delivery",
+      "description": "কাজ সময়মতো ডেলিভারি দেওয়া হয়, কোনো অপ্রয়োজনীয় দেরি ছাড়াই।",
+      "description_en": "Work is delivered right on schedule, without unnecessary delays."
+    },
+    {
+      "title": "আনলিমিটেড রিভিশন",
+      "title_en": "Unlimited Revisions",
+      "description": "আপনি সম্পূর্ণ সন্তুষ্ট না হওয়া পর্যন্ত প্রয়োজনীয় পরিবর্তন করা হয়।",
+      "description_en": "Necessary changes are made until you are fully satisfied."
+    },
+    {
+      "title": "সন্তুষ্টির আগে পেমেন্ট নয়",
+      "title_en": "No Payment Before Satisfaction",
+      "description": "ক্লায়েন্ট সম্পূর্ণ সন্তুষ্ট না হওয়া পর্যন্ত পেমেন্ট নেওয়া হয় না।",
+      "description_en": "Payment is not taken until the client is fully satisfied."
+    }
+  ],
+  "skills": ["Adobe Photoshop", "Adobe Illustrator", "Canva", "Figma", "CapCut", "Web Design", "CorelDRAW"]
+}
