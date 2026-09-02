@@ -1,3 +1,12 @@
 {
-  "items": []
+  "items": [
+    {
+      "title": "ID Card Desin",
+      "title_en": "ID Card Desin",
+      "category": "id-card",
+      "description": "Panchagarh Cyber Team-এর জন্য একটি আধুনিক ও প্রফেশনাল ID Card Design। সাইবার সিকিউরিটি থিম, সার্কিট প্যাটার্ন, শিল্ড ও রেড-ব্লু কালার কম্বিনেশনের মাধ্যমে ডিজাইনটিতে শক্তিশালী ও টেকনোলজিক্যাল লুক দেওয়া হয়েছে।",
+      "description_en": "A modern and professional ID card design created for Panchagarh Cyber Team. The design combines a cybersecurity theme, circuit patterns, shield elements, and a bold red-blue color scheme to create a strong and technological visual identity.",
+      "image": "/images/uploads/artboard-28-50.jpg"
+    }
+  ]
 }
