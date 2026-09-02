@@ -318,6 +318,16 @@
       "title_en": "Banzaar Cloths Brand Logo",
       "category": "logo-design",
       "image": "/images/uploads/werwrw-20.jpg"
+    },
+    {
+      "title": "বই বিলাস লোগো",
+      "title_en": "Boi Bilash Logo",
+      "category": "logo-design",
+      "image": "/images/uploads/asdad-20.jpg",
+      "gallery": [
+        "/images/uploads/ded-20.jpg",
+        "/images/uploads/asd-20.jpg"
+      ]
     }
   ]
 }
