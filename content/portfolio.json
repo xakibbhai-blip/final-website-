@@ -180,6 +180,18 @@
       "title": "পোস্টার ডিজাইন",
       "title_en": "Tarjul vhai poster design",
       "image": "/images/uploads/dd-20.webp"
+    },
+    {
+      "title": "ফেসবুক কভার ডিজাইন",
+      "title_en": "Facebook cover design",
+      "category": "social-media-design",
+      "image": "/images/uploads/reed-banner-4x-1-.webp"
+    },
+    {
+      "category": "social-media-design",
+      "title_en": "Youtube channel cover design",
+      "title": "ইউটিউব চ্যানেল কভার ডিজাইন",
+      "image": "/images/uploads/yt-4x.webp"
     }
   ]
 }
