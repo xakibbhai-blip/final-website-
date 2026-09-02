@@ -71,6 +71,44 @@
       ],
       "description": "একটি আকর্ষণীয় ও ক্লিকযোগ্য YouTube Thumbnail Design। গাঢ় কালার, বড় ও স্পষ্ট টাইপোগ্রাফি এবং ভিজ্যুয়াল এলিমেন্ট ব্যবহার করে থাম্বনেইলটিকে নজরকাড়া ও প্রফেশনালভাবে তৈরি করা হয়েছে।",
       "description_en": "An eye-catching and click-worthy YouTube thumbnail design. Bold colors, clear typography, and engaging visual elements are combined to create a professional thumbnail that instantly grabs attention."
+    },
+    {
+      "title": "লিফলেট ডিজাইন",
+      "title_en": "Leaflet Design",
+      "category": "leaflet",
+      "image": "/images/uploads/dd-20.webp",
+      "gallery": [
+        "/images/uploads/dd-20.webp"
+      ]
+    },
+    {
+      "category": "product-label",
+      "image": "/images/uploads/artboard-1-copy-5-2x-100.webp",
+      "gallery": [
+        "/images/uploads/artboard-1-copy-5-2x-100.webp",
+        "/images/uploads/fff-2x-100.webp"
+      ],
+      "title": "ব্লু মাউনটেইন কফি",
+      "title_en": "Blue Mountain Caffee"
+    },
+    {
+      "title": "লেবেল ডিজাইন",
+      "title_en": "Hair Oil Lebel Design",
+      "category": "product-label",
+      "image": "/images/uploads/artboard-1-20.jpg",
+      "gallery": [
+        "/images/uploads/artboard-1-20.jpg"
+      ]
+    },
+    {
+      "category": "packaging-design",
+      "title": "অর্জুনা টি লোগো এবং পেকেজিং",
+      "title_en": "Arjuna Tea logo and Packaging Design",
+      "image": "/images/uploads/small-size-20.jpg",
+      "gallery": [
+        "/images/uploads/small-size-20.jpg",
+        "/images/uploads/long-size-20.jpg"
+      ]
     }
   ]
 }
