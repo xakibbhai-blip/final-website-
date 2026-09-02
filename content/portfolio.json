@@ -149,6 +149,15 @@
         "/images/uploads/artboard-5-20.jpg"
       ],
       "image": "/images/uploads/gemini_generated_image_hoosm4hoosm4hoos.jfif"
+    },
+    {
+      "title": "জার্সি ডিজাইন",
+      "title_en": "Jersy design",
+      "category": "jersy-design",
+      "image": "/images/uploads/wer.jfif",
+      "gallery": [
+        "/images/uploads/sfs-20.jpg"
+      ]
     }
   ]
 }
