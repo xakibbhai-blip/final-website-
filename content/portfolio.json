@@ -300,6 +300,18 @@
         "/images/uploads/adarwer-2-.jpg",
         "/images/uploads/adarwer-3-.jpg"
       ]
+    },
+    {
+      "title": "এভোরা ফুড লোগো ডিজাইন",
+      "title_en": "Avora Food Logo Design",
+      "category": "logo-design",
+      "image": "/images/uploads/sfwe-2-.jpg",
+      "gallery": [
+        "/images/uploads/sfwe-3-.jpg",
+        "/images/uploads/sfwe-4-.jpg",
+        "/images/uploads/sfwe-5-.jpg",
+        "/images/uploads/sfwe-1-.jpg"
+      ]
     }
   ]
 }
