@@ -208,6 +208,19 @@
         "/images/uploads/master-banner-final-malle-2x-100.webp",
         "/images/uploads/master-banner-final-2x-100.webp"
       ]
+    },
+    {
+      "category": "vector-drawing",
+      "title": "ভেক্টর ড্রয়িং",
+      "title_en": "Vector drawing",
+      "image": "/images/uploads/artboard-28-20.jpg",
+      "gallery": [
+        "/images/uploads/white-background-vertical-fonts-outlined-20.jpg",
+        "/images/uploads/black-background-vertical-fonts-outlined-20.jpg",
+        "/images/uploads/horizontal-logos-white-fonts-not-yet-outlined-20.jpg",
+        "/images/uploads/horizontal-logos-black-bg-fonts-not-yet-outlined-20.jpg",
+        "/images/uploads/artboard-27-20.jpg"
+      ]
     }
   ]
 }
