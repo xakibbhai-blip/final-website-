@@ -290,6 +290,16 @@
         "/images/uploads/tgretryry-3-.jpg",
         "/images/uploads/tgretryry-1-.jpg"
       ]
+    },
+    {
+      "category": "logo-design",
+      "title": "এভোরা ফুড লোগো ডিজাইন",
+      "title_en": "Avora Food Logo Design",
+      "image": "/images/uploads/adarwer-1-.jpg",
+      "gallery": [
+        "/images/uploads/adarwer-2-.jpg",
+        "/images/uploads/adarwer-3-.jpg"
+      ]
     }
   ]
 }
