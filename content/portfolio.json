@@ -234,6 +234,41 @@
         "/images/uploads/sda-7-.jpg",
         "/images/uploads/sda-8-.jpg"
       ]
+    },
+    {
+      "title": "আস্তানা ডট কম লোগো",
+      "title_en": "Astanaa.com Logo",
+      "category": "logo-design",
+      "image": "/images/uploads/jg-2-.jpg",
+      "gallery": [
+        "/images/uploads/jg-3-.jpg",
+        "/images/uploads/jg-1-.jpg",
+        "/images/uploads/jg-4-.jpg"
+      ]
+    },
+    {
+      "category": "logo-design",
+      "title": "লোগো",
+      "title_en": "Empress Origine BD Logo",
+      "image": "/images/uploads/eerer-20.jpg",
+      "gallery": [
+        "/images/uploads/sdfsf-20.jpg",
+        "/images/uploads/sffsfsf-20.jpg"
+      ]
+    },
+    {
+      "title": "ইসলামিয়া বিএস পারফিউম লোগো ডিজাইন",
+      "title_en": "Islamia BS Logo design",
+      "category": "logo-design",
+      "image": "/images/uploads/sfds-3-.jpg",
+      "gallery": [
+        "/images/uploads/sfds-2-.jpg",
+        "/images/uploads/sfds-6-.jpg",
+        "/images/uploads/sfds-5-.jpg",
+        "/images/uploads/sfds-4-.jpg",
+        "/images/uploads/sfds-7-.jpg",
+        "/images/uploads/sfds-1-.jpg"
+      ]
     }
   ]
 }
