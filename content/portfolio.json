@@ -165,6 +165,15 @@
       "title_en": "Jersy design",
       "image": "/images/uploads/sds-20.jpg",
       "gallery": []
+    },
+    {
+      "image": "/images/uploads/whatsapp-image-2026-08-17-at-3.41.48-pm.jpeg",
+      "gallery": [
+        "/images/uploads/artboard-3-20.jpg"
+      ],
+      "title": "জার্সি ডিজাইন",
+      "title_en": "Jersy design",
+      "category": "jersy-design"
     }
   ]
 }
