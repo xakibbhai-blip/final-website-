@@ -1,8 +1,58 @@
 {
   "items": [
-    { "image": "/images/uploads/bestwork-placeholder.svg", "title": "সেরা কাজ ১", "title_en": "Best Work 1" },
-    { "image": "/images/uploads/bestwork-placeholder.svg", "title": "সেরা কাজ ২", "title_en": "Best Work 2" },
-    { "image": "/images/uploads/bestwork-placeholder.svg", "title": "সেরা কাজ ৩", "title_en": "Best Work 3" },
-    { "image": "/images/uploads/bestwork-placeholder.svg", "title": "সেরা কাজ ৪", "title_en": "Best Work 4" }
+    {
+      "image": "/images/uploads/artboard-6-2x-100.webp"
+    },
+    {
+      "image": "/images/uploads/artboard-8-4x-100-1-.webp"
+    },
+    {
+      "image": "/images/uploads/artboard-1-copy-2-2x.webp"
+    },
+    {
+      "image": "/images/uploads/chatgpt-image-jul-1-2026-01_53_21-pm.webp"
+    },
+    {
+      "image": "/images/uploads/artbopreeeard-6-100.jpg"
+    },
+    {
+      "image": "/images/uploads/head.gif"
+    },
+    {
+      "image": "/images/uploads/artboard-1-copy-2-4x-100.jpg"
+    },
+    {
+      "image": "/images/uploads/ggt-100.webp"
+    },
+    {
+      "image": "/images/uploads/artboard-2-4x.png"
+    },
+    {
+      "image": "/images/uploads/jpg-1-1-.webp"
+    },
+    {
+      "image": "/images/uploads/artboard-1-copy-2x-100.webp"
+    },
+    {
+      "image": "/images/uploads/ds-copy-5-4x-100.webp"
+    },
+    {
+      "image": "/images/uploads/artboard-2-copy-50.webp"
+    },
+    {
+      "image": "/images/uploads/artboard-1-copy-5-2x-100.webp"
+    },
+    {
+      "image": "/images/uploads/artboard-21-100.jpg"
+    },
+    {
+      "image": "/images/uploads/amanah-1-100.jpg"
+    },
+    {
+      "image": "/images/uploads/head-up-new-concept-25-.webp"
+    },
+    {
+      "image": "/images/uploads/head-up-new-concept-43-.webp"
+    }
   ]
 }
