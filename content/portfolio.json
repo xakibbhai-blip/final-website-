@@ -158,6 +158,13 @@
       "gallery": [
         "/images/uploads/sfs-20.jpg"
       ]
+    },
+    {
+      "category": "jersy-design",
+      "title": "জার্সি ডিজাইন",
+      "title_en": "Jersy design",
+      "image": "/images/uploads/sds-20.jpg",
+      "gallery": []
     }
   ]
 }
