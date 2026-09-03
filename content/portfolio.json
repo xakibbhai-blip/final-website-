@@ -378,6 +378,19 @@
         "/images/uploads/werwr-20.jpg",
         "/images/uploads/wer-20.jpg"
       ]
-    }
+    },
+    {
+      "category": "logo-design",
+      "title": "মিনার ওএস লোগো",
+      "title_en": "Minar OS Logo",
+      "image": "/images/uploads/minar-11-100.jpg",
+      "gallery": [
+        "/images/uploads/fffkk-100.jpg",
+        "/images/uploads/brand-story.jpg",
+        "/images/uploads/minar13-100.jpg",
+        "/images/uploads/minar12-100.jpg"
+      ]
+    },
+    {}
   ]
 }
