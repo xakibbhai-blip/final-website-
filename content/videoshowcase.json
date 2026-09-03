@@ -1,36 +1,38 @@
 {
   "videos": [
     {
-      "thumbnail": "/images/uploads/bestwork-placeholder.svg",
-      "videoUrl": "",
-      "title": "ভিডিও ১",
-      "title_en": "Video 1"
+      "videoUrl": "https://www.youtube.com/@newvexorstudio",
+      "thumbnail": "/images/uploads/818b1f4b-30b7-4aa2-80d9-1a7b8770907e.webp"
     },
     {
-      "thumbnail": "/images/uploads/bestwork-placeholder.svg",
-      "videoUrl": "",
-      "title": "ভিডিও ২",
-      "title_en": "Video 2"
+      "thumbnail": "/images/uploads/818b1f4b-30b7-4aa2-80d9-1a7b8770907e.webp",
+      "videoUrl": "https://www.youtube.com/@newvexorstudio"
     },
     {
-      "thumbnail": "/images/uploads/bestwork-placeholder.svg",
-      "videoUrl": "",
-      "title": "ভিডিও ৩",
-      "title_en": "Video 3"
+      "thumbnail": "/images/uploads/818b1f4b-30b7-4aa2-80d9-1a7b8770907e.webp",
+      "videoUrl": "https://www.youtube.com/@newvexorstudio"
+    },
+    {
+      "thumbnail": "/images/uploads/818b1f4b-30b7-4aa2-80d9-1a7b8770907e.webp",
+      "videoUrl": "https://www.youtube.com/@newvexorstudio"
+    },
+    {
+      "thumbnail": "/images/uploads/818b1f4b-30b7-4aa2-80d9-1a7b8770907e.webp",
+      "videoUrl": "https://www.youtube.com/@newvexorstudio"
     }
   ],
   "promoImages": [
     {
-      "image": "/images/uploads/bestwork-placeholder.svg",
-      "link": "",
-      "title": "প্রোমো ১",
-      "title_en": "Promo 1"
+      "image": "/images/uploads/6ec83912-b8cc-43b4-9a79-6936060db5d3.webp"
     },
     {
-      "image": "/images/uploads/bestwork-placeholder.svg",
-      "link": "",
-      "title": "প্রোমো ২",
-      "title_en": "Promo 2"
+      "image": "/images/uploads/6ec83912-b8cc-43b4-9a79-6936060db5d3.webp"
+    },
+    {
+      "image": "/images/uploads/6ec83912-b8cc-43b4-9a79-6936060db5d3.webp"
+    },
+    {
+      "image": "/images/uploads/6ec83912-b8cc-43b4-9a79-6936060db5d3.webp"
     }
   ]
 }
