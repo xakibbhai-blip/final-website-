@@ -400,6 +400,25 @@
         "/images/uploads/typography-20.jpg",
         "/images/uploads/icon-20.jpg"
       ]
+    },
+    {
+      "category": "logo-design",
+      "title": "ইউরাস লোগো",
+      "title_en": "Yuras Logo",
+      "image": "/images/uploads/2-20.jpg",
+      "gallery": [
+        "/images/uploads/erwrwrw-20.jpg"
+      ]
+    },
+    {
+      "category": "logo-design",
+      "title": "টপ ফ্লাইট লোগো",
+      "title_en": "Top flight Logo",
+      "image": "/images/uploads/hd-20.jpg",
+      "gallery": [
+        "/images/uploads/bf-20.jpg",
+        "/images/uploads/df-20.jpg"
+      ]
     }
   ]
 }
