@@ -391,6 +391,15 @@
         "/images/uploads/minar12-100.jpg"
       ]
     },
-    {}
+    {
+      "category": "logo-design",
+      "title": " তালুকদার বাজার লোগো",
+      "title_en": "Talukder Bazar Logo",
+      "image": "/images/uploads/artboard-1-copy-6-20.jpg",
+      "gallery": [
+        "/images/uploads/typography-20.jpg",
+        "/images/uploads/icon-20.jpg"
+      ]
+    }
   ]
 }
