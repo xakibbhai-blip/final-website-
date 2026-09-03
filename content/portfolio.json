@@ -338,6 +338,17 @@
         "/images/uploads/goain-barta-20.jpg",
         "/images/uploads/artboard-7-20.jpg"
       ]
+    },
+    {
+      "category": "logo-design",
+      "title": "হেড আপ লোগো",
+      "title_en": "Head Up Logo",
+      "image": "/images/uploads/artboard-62-copy-20.jpg",
+      "gallery": [
+        "/images/uploads/artboard-62-copy-2-20.jpg",
+        "/images/uploads/artboard-62-20.jpg",
+        "/images/uploads/artboard-62-copy-3-20.jpg"
+      ]
     }
   ]
 }
