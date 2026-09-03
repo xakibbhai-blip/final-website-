@@ -328,6 +328,16 @@
         "/images/uploads/ded-20.jpg",
         "/images/uploads/asd-20.jpg"
       ]
+    },
+    {
+      "category": "logo-design",
+      "title": "গোয়াইন বার্তা লোগো",
+      "title_en": "Goain Barta Logo",
+      "image": "/images/uploads/artboard-7-20.jpg",
+      "gallery": [
+        "/images/uploads/goain-barta-20.jpg",
+        "/images/uploads/artboard-7-20.jpg"
+      ]
     }
   ]
 }
