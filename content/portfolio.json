@@ -359,6 +359,25 @@
         "/images/uploads/white-logo-kahaf-100.jpg",
         "/images/uploads/kahaf-portfolio-100-1-.webp"
       ]
+    },
+    {
+      "category": "logo-design",
+      "title": "খাবার বক্স লোগো",
+      "title_en": "Khabar Box Logo",
+      "image": "/images/uploads/werwrrw-20.jpg",
+      "gallery": [
+        "/images/uploads/werqw-20.jpg"
+      ]
+    },
+    {
+      "title": "খাবার বক্স লোগো ২ ",
+      "title_en": "Khabar Box Logo 2",
+      "category": "logo-design",
+      "image": "/images/uploads/werwr_1-20.jpg",
+      "gallery": [
+        "/images/uploads/werwr-20.jpg",
+        "/images/uploads/wer-20.jpg"
+      ]
     }
   ]
 }
