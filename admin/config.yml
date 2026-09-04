@@ -150,6 +150,12 @@ collections:
               - { label: "Label (Bangla)", name: "label", widget: "string" }
               - { label: "Label (English)", name: "label_en", widget: "string" }
 
+              - label: "Recent Work এ শুরুতে এই ক্যাটাগরি দেখাবে?"
+                name: "isDefault"
+                widget: "boolean"
+                default: false
+                hint: "যেকোনো একটা ক্যাটাগরিতে এটা ON করে দিলে, ওয়েবসাইট খোলার সাথে সাথে Recent Work সেকশনে শুরুতেই সেই ক্যাটাগরির কাজ দেখাবে (সবগুলোর বদলে)। একের বেশি ক্যাটাগরিতে ON করলে সবচেয়ে উপরেরটা কাজ করবে।"
+
   - name: "portfolio"
     label: "Portfolio Work / পোর্টফোলিও কাজ"
     files:
