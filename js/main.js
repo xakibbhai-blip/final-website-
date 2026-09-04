@@ -200,6 +200,11 @@ async function loadPortfolio() {
     console.error("পোর্টফোলিও ডেটা লোড করতে সমস্যা হয়েছে:", err);
     allItems = [];
   }
+  // মোবাইলে শুরুতেই "All Work" দেখিয়ে অনেক লম্বা লিস্ট স্ক্রল করাতে না হয়,
+  // তাই ডিফল্ট হিসেবে admin panel থেকে যে ক্যাটাগরিতে "isDefault" অন করা আছে সেটাই দেখানো হবে
+  // কোনোটাতে অন করা না থাকলে প্রথম ক্যাটাগরিটা দেখানো হবে (তবুও "All Works" নয়)
+  const defaultCat = CATEGORIES.find((c) => c.isDefault === true) || CATEGORIES[0];
+  if (defaultCat) activeCategory = defaultCat.id;
   renderBoard(); renderFilterBar(); renderGrid();
 }
 
@@ -211,7 +216,7 @@ function renderBoard() {
     return `<div class="sticker" tabindex="0" role="button" data-cat="${cat.id}"><span class="num">${String(i + 1).padStart(2, "0")}</span><div><h3>${categoryLabel(cat)}</h3><div class="count">${count} ${t("count")}</div></div></div>`;
   }).join("");
   board.querySelectorAll(".sticker").forEach((el) => {
-    const activate = () => { activeCategory = el.dataset.cat; renderFilterBar(); renderGrid(); document.getElementById("work").scrollIntoView({ behavior: "smooth", block: "start" }); };
+    const activate = () => { activeCategory = el.dataset.cat; renderFilterBar(); renderGrid(); document.getElementById("portfolio").scrollIntoView({ behavior: "smooth", block: "start" }); };
     el.addEventListener("click", activate);
     el.addEventListener("keypress", (e) => { if (e.key === "Enter" || e.key === " ") activate(); });
   });
