@@ -3,62 +3,74 @@
     {
       "id": "logo-design",
       "label": "লোগো ডিজাইন",
-      "label_en": "Logo Design"
+      "label_en": "Logo Design",
+      "isDefault": false
     },
     {
       "id": "banner-design",
       "label": "ব্যানার ডিজাইন",
-      "label_en": "Banner Design"
+      "label_en": "Banner Design",
+      "isDefault": false
     },
     {
       "id": "social-media-design",
       "label": "সোশ্যাল মিডিয়া ডিজাইন",
-      "label_en": "Social Media Design"
+      "label_en": "Social Media Design",
+      "isDefault": false
     },
     {
       "id": "product-label",
       "label": "প্রোডাক্ট লেবেল",
-      "label_en": "Product Label"
+      "label_en": "Product Label",
+      "isDefault": false
     },
     {
       "id": "packaging-design",
       "label": "প্যাকেজিং ডিজাইন",
-      "label_en": "Packaging Design"
+      "label_en": "Packaging Design",
+      "isDefault": false
     },
     {
       "id": "vector-drawing",
       "label": "ভেক্টর ড্রয়িং",
-      "label_en": "Vector Drawing"
+      "label_en": "Vector Drawing",
+      "isDefault": false
     },
     {
       "id": "visiting-card",
       "label": "ভিজিটিং কার্ড",
-      "label_en": "Visiting Card"
+      "label_en": "Visiting Card",
+      "isDefault": false
     },
     {
       "id": "leaflet",
       "label": "লিফলেট",
-      "label_en": "Leaflet"
+      "label_en": "Leaflet",
+      "isDefault": false
     },
     {
       "id": "poster",
       "label": "পোস্টার",
-      "label_en": "Poster"
+      "label_en": "Poster",
+      "isDefault": false
     },
     {
       "id": "book-cover",
       "label": "বুক কভার",
-      "label_en": "Book Cover"
+      "label_en": "Book Cover",
+      "isDefault": false
     },
     {
       "id": "id-card",
       "label": "আইডি কার্ড",
-      "label_en": "ID Card"
+      "label_en": "ID Card",
+      "isDefault": false
     },
     {
       "id": "jersy-design",
       "label": "জার্সি ডিজাইন",
-      "label_en": "Jersy Design"
+      "label_en": "Jersy Design",
+      "isDefault": true
     }
   ]
 }
