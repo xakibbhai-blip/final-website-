@@ -430,6 +430,22 @@
         "/images/uploads/qabaz-w-4-.jpg",
         "/images/uploads/qabaz-w-3-.jpg"
       ]
+    },
+    {
+      "category": "logo-design",
+      "title": "এডভান্স আর্নিং ",
+      "title_en": "ADVANCE EARNING",
+      "image": "/images/uploads/aee-1-.jpg",
+      "gallery": [
+        "/images/uploads/aee-4-.jpg",
+        "/images/uploads/aee-5-.jpg",
+        "/images/uploads/aee-8-.jpg",
+        "/images/uploads/aee-6-.jpg",
+        "/images/uploads/aee-9-.jpg",
+        "/images/uploads/aee-7-.jpg",
+        "/images/uploads/aee-2-.jpg",
+        "/images/uploads/aee-3-.jpg"
+      ]
     }
   ]
 }
