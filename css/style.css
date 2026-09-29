@@ -413,84 +413,37 @@ img { max-width: 100%; display: block; }
 
 section { padding: 90px 0; }
 
-/* ---------- Compact Category Board ---------- */
+/* ---------- Sticker category board ---------- */
 .board {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 22px;
 }
 .sticker {
   position: relative;
-  min-height: 92px;
-  padding: 18px 22px;
-  border-radius: 18px;
+  border-radius: var(--radius-lg);
+  padding: 28px 22px 24px;
+  min-height: 190px;
   display: flex;
-  align-items: center;
-  gap: 16px;
+  flex-direction: column;
+  justify-content: space-between;
   cursor: pointer;
-  color: var(--ink);
+  color: #0a1614;
   font-weight: 700;
-  background: rgba(255,255,255,0.025);
-  border: 1px solid rgba(234,255,251,0.14);
-  box-shadow: none;
-  transform: none !important;
-  transition: transform .25s ease, border-color .25s ease, background .25s ease, box-shadow .25s ease;
+  border: 2.5px solid rgba(10,22,20,0.15);
+  transition: transform .28s cubic-bezier(.2,.8,.3,1.2), box-shadow .28s ease;
+  box-shadow: 0 14px 0 -6px rgba(0,0,0,0.25);
 }
-.sticker:nth-child(4n+1),
-.sticker:nth-child(4n+2),
-.sticker:nth-child(4n+3),
-.sticker:nth-child(4n+4) {
-  background: rgba(255,255,255,0.025);
-  color: var(--ink);
-}
-.sticker:hover {
-  transform: translateY(-3px) !important;
-  border-color: var(--teal);
-  background: rgba(47,230,201,0.06);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.18);
-}
-.sticker:nth-child(even):hover {
-  border-color: var(--orange);
-  background: rgba(255,111,31,0.06);
-}
-.sticker.active {
-  outline: none;
-  border-color: var(--teal);
-  background: rgba(47,230,201,0.09);
-}
-.sticker .num {
-  flex: 0 0 auto;
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.72rem;
-  color: var(--teal);
-  opacity: 1;
-}
-.sticker:nth-child(even) .num { color: var(--orange); }
-.sticker h3 {
-  margin: 0;
-  font-size: 1rem;
-  font-family: 'Unbounded', sans-serif;
-  line-height: 1.3;
-}
-.sticker .count {
-  margin-top: 5px;
-  font-size: 0.78rem;
-  font-weight: 500;
-  color: var(--ink-dim);
-}
-.sticker::after {
-  content: "→";
-  margin-left: auto;
-  font-size: 1.15rem;
-  color: var(--ink-dim);
-  transition: transform .2s ease, color .2s ease;
-}
-.sticker:hover::after {
-  transform: translateX(4px);
-  color: var(--teal);
-}
-.sticker:nth-child(even):hover::after { color: var(--orange); }
+.sticker:nth-child(4n+1) { background: linear-gradient(135deg, var(--teal), var(--teal-deep)); transform: rotate(-3deg); }
+.sticker:nth-child(4n+2) { background: linear-gradient(135deg, var(--orange), var(--orange-deep)); color: #1a0d02; transform: rotate(2deg); }
+.sticker:nth-child(4n+3) { background: linear-gradient(135deg, var(--teal-deep), var(--teal)); transform: rotate(-2deg); }
+.sticker:nth-child(4n+4) { background: linear-gradient(135deg, var(--orange-deep), var(--orange)); color: #1a0d02; transform: rotate(3deg); }
+.sticker:hover { transform: rotate(0deg) translateY(-8px) scale(1.02); box-shadow: 0 22px 0 -8px rgba(0,0,0,0.3); }
+.sticker.active { outline: 3px solid var(--ink); outline-offset: 3px; }
+.sticker .num { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; opacity: 0.65; }
+.sticker h3 { font-size: 1.3rem; font-family: 'Unbounded', sans-serif; margin-top: 10px; }
+.sticker .count { font-size: 0.85rem; font-weight: 600; opacity: 0.75; margin-top: 4px; }
 
 /* ---------- Portfolio grid ---------- */
 .filter-bar {
@@ -1075,20 +1028,7 @@ a:focus-visible, button:focus-visible, .chip:focus-visible, .sticker:focus-visib
 }
 
 @media (max-width: 720px) {
-  .board {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-  .sticker {
-    min-height: 72px;
-    padding: 14px 16px;
-    gap: 12px;
-    border-radius: 15px;
-  }
-  .sticker h3 { font-size: 0.85rem; }
-  .sticker .count { font-size: 0.72rem; }
-  .sticker .num { font-size: 0.65rem; }
-  .sticker::after { font-size: 1rem; }
+  .board { grid-template-columns: repeat(2, 1fr); gap: 14px; }
   .grid { grid-template-columns: 1fr; }
   .hero { padding: 60px 0 70px; }
   section { padding: 56px 0; }
@@ -1111,9 +1051,39 @@ a:focus-visible, button:focus-visible, .chip:focus-visible, .sticker:focus-visib
   .board { grid-template-columns: 1fr; }
   .brand span { font-size: 0.95rem; }
   .wrap { padding: 0 16px; }
-  .btn { width: 100%; justify-content: center; }
-  .hero-actions { flex-direction: column; }
-  .hero-actions .btn, .hero-actions a.btn-drive { width: 100%; }
+
+  /* Keep hero buttons in one row on mobile, just make them smaller */
+  .hero-actions {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+    width: 100%;
+  }
+  .hero-actions .btn,
+  .hero-actions a.btn-drive {
+    width: auto;
+    flex: 1 1 0;
+    min-width: 0;
+    justify-content: center;
+    padding: 11px 8px;
+    font-size: 0.72rem;
+    gap: 5px;
+    white-space: nowrap;
+  }
+
+  /* Make WhatsApp slightly larger and easier to tap */
+  .hero-actions .btn-primary {
+    flex: 1.35 1 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 0.76rem;
+  }
+
+  .hero-actions .btn-ghost,
+  .hero-actions .btn-drive {
+    flex: 1 1 0;
+  }
+
   .contact-pill { width: 100%; justify-content: center; }
   .bestwork-item { height: 170px; }
 }
